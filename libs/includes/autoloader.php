@@ -1,8 +1,5 @@
 <?php
 
-define('LIBS_PATH', '/var/www/html/libs/');
-define('SOURCE_PATH', '/var/www/html/src/');
-
 class Autoloader {
 
   private static $logPath = SOURCE_PATH . "logs/autoloader_mkx";
